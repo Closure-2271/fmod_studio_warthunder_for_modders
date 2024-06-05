@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{7658fa6c-4ac9-466e-b829-63260a90e814}</destination>
-			<destination>{ef7714f2-d71a-4b71-952f-05c3772ea430}</destination>
-			<destination>{b6cb6e40-7439-4c5a-a564-ab6367ade620}</destination>
+			<destination>{3fcdce9d-4a76-4426-9fa6-7e6de5bba887}</destination>
+			<destination>{4fbfcc38-cb8f-466e-9bb5-043e429f972a}</destination>
+			<destination>{0cd8a040-494e-44cf-8a19-d835effd8973}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d0006f2d-2762-4043-85c2-b976541ec5f9}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{5b6ee872-cd07-42a2-b614-83499f156bb1}" />
 	<object class="MixerBusFader" id="{0abe70a4-a46d-456f-86d2-09c6d5d269b9}" />
-	<object class="ProgrammerSound" id="{7658fa6c-4ac9-466e-b829-63260a90e814}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3fcdce9d-4a76-4426-9fa6-7e6de5bba887}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_obstacle_v1</value>
+			<value>obstacle_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{ef7714f2-d71a-4b71-952f-05c3772ea430}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{4fbfcc38-cb8f-466e-9bb5-043e429f972a}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_obstacle_v2</value>
+			<value>obstacle_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{b6cb6e40-7439-4c5a-a564-ab6367ade620}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0cd8a040-494e-44cf-8a19-d835effd8973}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_obstacle_v3</value>
+			<value>obstacle_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{21be69ac-e8ab-44a9-8b3e-6df8ffcf259f}">

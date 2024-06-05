@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{18d8faa1-dc6d-4bf9-92c1-ca6036ecbf8a}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_turret_right</value>
 		</property>
@@ -117,7 +120,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{8e6c71e5-ee60-4721-95d5-0fe5fbab06f6}</destination>
+			<destination>{ba1fc8a3-78d6-4c36-af96-6b5c2564cf68}</destination>
+			<destination>{b9ea6375-2e9e-42af-8a08-af262573cd5c}</destination>
+			<destination>{acd7684d-a328-4f86-9d56-420c8903ebcb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2a6b4f1e-a282-4cd9-b921-7c2eda47130c}">
@@ -144,12 +149,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{c63139e1-937d-4381-82ba-5cee9fa986a5}" />
 	<object class="MixerBusFader" id="{5f4b86e8-bec0-4d8e-91d6-584c6edb1b0d}" />
-	<object class="ProgrammerSound" id="{8e6c71e5-ee60-4721-95d5-0fe5fbab06f6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ba1fc8a3-78d6-4c36-af96-6b5c2564cf68}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_turret_right_v3</value>
+			<value>turret_right_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{b9ea6375-2e9e-42af-8a08-af262573cd5c}">
+		<property name="name">
+			<value>turret_right_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{acd7684d-a328-4f86-9d56-420c8903ebcb}">
+		<property name="name">
+			<value>turret_right_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a7e6b78d-5a2f-4bac-9c7a-a36de90af788}">

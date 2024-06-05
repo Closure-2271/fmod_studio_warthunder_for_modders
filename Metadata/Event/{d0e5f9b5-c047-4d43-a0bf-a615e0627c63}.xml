@@ -114,7 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{7dbb6268-6472-4c24-892d-13ea1eae6aea}</destination>
+			<destination>{96bea856-a818-4e27-b76b-d58456552edf}</destination>
+			<destination>{041e715e-1dcc-4f01-aae1-963b564c98bd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8b108e46-ab57-40d9-b9f8-933df943a70b}">
@@ -141,12 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{9f012278-dbab-4853-88cd-736e3c4dbd8c}" />
 	<object class="MixerBusFader" id="{15e9f1b5-8ccf-4477-8225-ff719324692d}" />
-	<object class="ProgrammerSound" id="{7dbb6268-6472-4c24-892d-13ea1eae6aea}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{96bea856-a818-4e27-b76b-d58456552edf}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_abrams</value>
+			<value>abrams_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{041e715e-1dcc-4f01-aae1-963b564c98bd}">
+		<property name="name">
+			<value>abrams_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{d256d004-2ea7-4884-8772-be377f24226c}">

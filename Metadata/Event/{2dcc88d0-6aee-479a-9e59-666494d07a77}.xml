@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2dcc88d0-6aee-479a-9e59-666494d07a77}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_art_destroy</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{2b67bd58-a3a5-457d-be1d-61018ca93711}</destination>
-			<destination>{7f7741af-3411-4c0c-bf9a-28bd1496bade}</destination>
-			<destination>{053dae95-1765-4319-84ff-a03a60418121}</destination>
+			<destination>{a9871ccd-b576-420e-adeb-8c6a436f8905}</destination>
+			<destination>{cf6aedb3-8967-499a-a34d-b5e954bcd0af}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a75a14c9-f835-462a-b525-cfc955510099}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{2b82a473-a26a-4365-81b5-3afe3f3796a6}" />
 	<object class="MixerBusFader" id="{3272da32-596c-4815-bb44-c4607f40026a}" />
-	<object class="ProgrammerSound" id="{2b67bd58-a3a5-457d-be1d-61018ca93711}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a9871ccd-b576-420e-adeb-8c6a436f8905}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_art_destroy_v1</value>
+			<value>destroy_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{7f7741af-3411-4c0c-bf9a-28bd1496bade}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cf6aedb3-8967-499a-a34d-b5e954bcd0af}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_art_destroy_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{053dae95-1765-4319-84ff-a03a60418121}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_destroy_v3</value>
+			<value>destroy_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b885e991-56e5-49e6-8c48-6550269c1343}">

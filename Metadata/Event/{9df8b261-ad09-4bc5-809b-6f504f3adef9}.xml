@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{d72f8d61-9ef8-472e-8092-6d9b93d0a112}</destination>
-			<destination>{9684d6e2-ba7f-4a93-9b0a-a2ec82141274}</destination>
-			<destination>{a21bb03a-0391-44f7-829d-15e294436b41}</destination>
+			<destination>{f753f117-eaa5-41c7-847f-0c17f9dd936e}</destination>
+			<destination>{429ed33c-0954-4017-82ab-01a67bde66d4}</destination>
+			<destination>{c15ff6a5-22e6-4e83-9ef4-4bcfff7ff275}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{44c4796b-5c8e-481e-a208-b7b512ad6ad6}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{dc674418-f411-49c2-a155-c0a66d88ce22}" />
 	<object class="MixerBusFader" id="{9f2bacc5-5c88-40c0-a2e9-6374a8a5e792}" />
-	<object class="ProgrammerSound" id="{d72f8d61-9ef8-472e-8092-6d9b93d0a112}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f753f117-eaa5-41c7-847f-0c17f9dd936e}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v1</value>
+			<value>damage_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{9684d6e2-ba7f-4a93-9b0a-a2ec82141274}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{429ed33c-0954-4017-82ab-01a67bde66d4}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v2</value>
+			<value>damage_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{a21bb03a-0391-44f7-829d-15e294436b41}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c15ff6a5-22e6-4e83-9ef4-4bcfff7ff275}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v3</value>
+			<value>damage_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{3c949f16-7304-46d3-a9e1-ba10ea05adb7}">

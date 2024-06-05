@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6bdfa1cc-29ff-4365-9095-554c88845367}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_shot</value>
 		</property>
@@ -130,8 +133,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3e739dbd-8b3d-47b3-a610-1f659989c8b8}</destination>
-			<destination>{5423385f-eca9-4769-8542-8a5fceba1f3f}</destination>
+			<destination>{d19e16fe-d0e2-4ce9-b2b0-d09008584776}</destination>
+			<destination>{4637142f-fc83-4983-b34e-f41be8d0fba4}</destination>
+			<destination>{da6b3026-3e2d-4ef3-aee4-f83ab591dd6f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bb8c2798-7485-4d37-aad6-545c0a9fe928}">
@@ -159,9 +163,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{62bdec8c-5d9c-4f75-86e8-1c297f48dbb8}</destination>
-			<destination>{83224998-6453-40fb-bdce-20fd271b29e2}</destination>
-			<destination>{1c94f5ab-1eb7-4d58-a66b-eb0ae0e3f341}</destination>
+			<destination>{bd866428-3b98-439f-95cc-1378622fb596}</destination>
+			<destination>{1a636053-fae3-4e2d-ab7d-7ec4583beca1}</destination>
+			<destination>{e8ecb996-638e-4e63-ae43-b56a9210b652}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{363d11c4-4576-4500-a6e5-680677402d7b}">
@@ -196,21 +200,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{c966d952-7921-44b2-bab3-d09825f1e638}" />
 	<object class="MixerBusFader" id="{2559ff8c-64ae-4eb7-b8d9-ddd1c3562b8d}" />
-	<object class="EventSound" id="{3e739dbd-8b3d-47b3-a610-1f659989c8b8}">
-		<relationship name="parameters">
-			<destination>{26edc2f8-d890-4911-b3f8-651f228bb87a}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{d861e8d6-7826-46d8-b3d1-ed6365f94223}</destination>
-		</relationship>
+	<object class="ProgrammerSound" id="{d19e16fe-d0e2-4ce9-b2b0-d09008584776}">
+		<property name="name">
+			<value>shot_1</value>
+		</property>
 	</object>
-	<object class="EventSound" id="{5423385f-eca9-4769-8542-8a5fceba1f3f}">
-		<relationship name="parameters">
-			<destination>{19206910-cc7c-4324-8f8d-9e280b8b333f}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{b7737387-06d1-456f-a50a-24ce6f3b1a0a}</destination>
-		</relationship>
+	<object class="ProgrammerSound" id="{4637142f-fc83-4983-b34e-f41be8d0fba4}">
+		<property name="name">
+			<value>shot_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{da6b3026-3e2d-4ef3-aee4-f83ab591dd6f}">
+		<property name="name">
+			<value>shot_3</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{8a595667-5ea6-4a01-a8c1-d2ceda31f21d}">
 		<relationship name="effects">
@@ -219,28 +222,19 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{caf04e7b-24a2-4f9b-9dc7-372e998a52c7}" />
-	<object class="ProgrammerSound" id="{62bdec8c-5d9c-4f75-86e8-1c297f48dbb8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bd866428-3b98-439f-95cc-1378622fb596}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v1</value>
+			<value>shot_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{83224998-6453-40fb-bdce-20fd271b29e2}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1a636053-fae3-4e2d-ab7d-7ec4583beca1}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v2</value>
+			<value>shot_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{1c94f5ab-1eb7-4d58-a66b-eb0ae0e3f341}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e8ecb996-638e-4e63-ae43-b56a9210b652}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v3</value>
+			<value>shot_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{56d8ef1a-b25e-4d86-b173-dbe8243695ba}">
@@ -251,16 +245,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{7835ae6c-5fe0-493c-a2b4-7f8a2cbc55f5}" />
 	<object class="MixerBusFader" id="{23b69c37-cd7a-47ef-abac-4afb80ee1ac3}" />
-	<object class="ParameterProperty" id="{26edc2f8-d890-4911-b3f8-651f228bb87a}">
-		<relationship name="parameter">
-			<destination>{8cce39f4-5216-4401-b4e1-71deac42141b}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{19206910-cc7c-4324-8f8d-9e280b8b333f}">
-		<relationship name="parameter">
-			<destination>{32f41c96-aaed-4a0f-8e1b-96a4854068fe}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{d251b7f2-6db7-47ba-9384-db76af82024a}" />
 	<object class="GainEffect" id="{1aa8e88c-4808-4e9d-a977-7e50c7e63150}" />
 	<object class="MixerBusFader" id="{d63a2070-4f3b-49a1-94eb-47dedb4fa35b}" />

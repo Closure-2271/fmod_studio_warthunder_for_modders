@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{bc7b40d4-38b9-485d-a701-58cad9389282}</destination>
-			<destination>{92eb90c0-c3ba-4d93-9a15-108a8d68d7f5}</destination>
-			<destination>{81008c9d-cff0-46b9-ac2a-1d9a968ea3c1}</destination>
+			<destination>{783a1193-e470-4f31-95fd-3cbc0f195fc2}</destination>
+			<destination>{681ac62c-ef25-46f9-98b8-8f94886fed67}</destination>
+			<destination>{7f8dfec9-f9f2-4899-9a3d-d21eb31e7771}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1f161473-2819-4de5-9daa-69955bc42f57}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{d707f22a-ac1c-4718-b399-cf08b5f15b6d}" />
 	<object class="MixerBusFader" id="{4c354f61-7407-4596-829a-aec881bf7f61}" />
-	<object class="ProgrammerSound" id="{bc7b40d4-38b9-485d-a701-58cad9389282}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{783a1193-e470-4f31-95fd-3cbc0f195fc2}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_taking_command_v1</value>
+			<value>d_taking_command_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{92eb90c0-c3ba-4d93-9a15-108a8d68d7f5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{681ac62c-ef25-46f9-98b8-8f94886fed67}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_taking_command_v2</value>
+			<value>d_taking_command_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{81008c9d-cff0-46b9-ac2a-1d9a968ea3c1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{7f8dfec9-f9f2-4899-9a3d-d21eb31e7771}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_taking_command_v3</value>
+			<value>d_taking_command_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2cf391f7-4ba9-4bd4-bda9-988b9d841a8c}">

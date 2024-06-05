@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7945b495-566c-42b2-b87b-c545276dc6fd}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_fire_munition_compartment</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3a03e110-846d-4fdc-9152-756b8f52d449}</destination>
-			<destination>{16e401bf-1ee3-4449-97bf-19e051b6a28d}</destination>
-			<destination>{a8b6ccf9-b32d-470c-a3c6-b3fdccf8a130}</destination>
+			<destination>{39963dbc-ff63-42ee-b901-d2ab369ad4e1}</destination>
+			<destination>{6b15da8c-9f96-4188-b869-139ffc293a48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{03b2f29c-3ee3-4a66-b776-f02aeb0a223c}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{1e2c5186-2509-4319-878d-c551228d7770}" />
 	<object class="MixerBusFader" id="{6f91c9f8-ebe2-4e5d-aced-013f15553be4}" />
-	<object class="ProgrammerSound" id="{3a03e110-846d-4fdc-9152-756b8f52d449}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{39963dbc-ff63-42ee-b901-d2ab369ad4e1}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_munition_compartment_v1</value>
+			<value>fire_mc_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{16e401bf-1ee3-4449-97bf-19e051b6a28d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{6b15da8c-9f96-4188-b869-139ffc293a48}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_munition_compartment_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{a8b6ccf9-b32d-470c-a3c6-b3fdccf8a130}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_munition_compartment_v3</value>
+			<value>fire_mc_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ee48be90-8666-4c21-aa17-9008bf553e21}">

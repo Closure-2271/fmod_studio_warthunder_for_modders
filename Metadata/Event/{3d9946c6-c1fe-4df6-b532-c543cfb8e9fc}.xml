@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{a96c2cb8-580b-4574-8438-5223485e4562}</destination>
-			<destination>{762964fb-1df2-4e11-841b-557392180cdc}</destination>
-			<destination>{6b42e359-5ebb-4fa8-be87-2d2458e6d201}</destination>
+			<destination>{d1146187-3b71-4704-b304-c57ce17f3408}</destination>
+			<destination>{919d7f44-e3cb-4afb-80c1-7495b5bd558f}</destination>
+			<destination>{db689164-551e-4f8f-9b5e-3cb71423a6ef}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b8dd2780-8dc9-4bdb-9428-11cafabef6f6}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{924c47e6-53c7-4c2c-9937-9e0a697acd5d}" />
 	<object class="MixerBusFader" id="{84bc8a4c-039e-48a5-b50b-d7caed01d511}" />
-	<object class="ProgrammerSound" id="{a96c2cb8-580b-4574-8438-5223485e4562}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{d1146187-3b71-4704-b304-c57ce17f3408}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_engine_stop_v1</value>
+			<value>engine_stop_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{762964fb-1df2-4e11-841b-557392180cdc}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{919d7f44-e3cb-4afb-80c1-7495b5bd558f}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_engine_stop_v2</value>
+			<value>engine_stop_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{6b42e359-5ebb-4fa8-be87-2d2458e6d201}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{db689164-551e-4f8f-9b5e-3cb71423a6ef}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_engine_stop_v3</value>
+			<value>engine_stop_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{8c634a5c-46a5-4dc6-a24a-414e7b2c1274}">

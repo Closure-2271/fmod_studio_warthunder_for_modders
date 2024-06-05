@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a25b36c6-d396-4d32-a85f-3c9a93d74641}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_tiger</value>
 		</property>
@@ -113,8 +116,16 @@
 		<property name="length">
 			<value>0.40000000000000002</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
-			<destination>{8258975f-ed91-4ff1-bf80-a1c91ea45b01}</destination>
+			<destination>{1644f0ab-e196-4abf-aa5e-25169144d778}</destination>
+			<destination>{c0613744-a0f0-439c-88f7-64e955f87b4c}</destination>
+		</relationship>
+		<relationship name="playPercentages">
+			<destination>{e0032ab3-3e82-4ce3-85ff-9dcc35d536a5}</destination>
+			<destination>{a04fa4ed-87f1-4ac5-80c5-532713dde198}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d0ea25a2-0018-4bf4-bc11-e5122cf04d25}">
@@ -141,13 +152,31 @@
 	</object>
 	<object class="MixerBusPanner" id="{76cc9f2e-ae7c-4a1e-a099-e0f368f8b51a}" />
 	<object class="MixerBusFader" id="{9303681e-df2b-41c1-b470-4ab09a57dbaf}" />
-	<object class="ProgrammerSound" id="{8258975f-ed91-4ff1-bf80-a1c91ea45b01}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1644f0ab-e196-4abf-aa5e-25169144d778}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_tiger</value>
+			<value>tiger_1</value>
 		</property>
+	</object>
+	<object class="ProgrammerSound" id="{c0613744-a0f0-439c-88f7-64e955f87b4c}">
+		<property name="name">
+			<value>tiger_2</value>
+		</property>
+	</object>
+	<object class="PlayPercentage" id="{e0032ab3-3e82-4ce3-85ff-9dcc35d536a5}">
+		<property name="percentage">
+			<value>10</value>
+		</property>
+		<relationship name="sound">
+			<destination>{c0613744-a0f0-439c-88f7-64e955f87b4c}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{a04fa4ed-87f1-4ac5-80c5-532713dde198}">
+		<property name="percentage">
+			<value>90</value>
+		</property>
+		<relationship name="sound">
+			<destination>{1644f0ab-e196-4abf-aa5e-25169144d778}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c02537ef-7851-4d22-8a13-8c72194a05f9}">
 		<relationship name="effects">

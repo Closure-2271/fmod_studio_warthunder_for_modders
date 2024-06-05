@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8f7c9f0e-48b6-4f47-b879-c24469b1752b}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_move_revvs</value>
 		</property>
@@ -113,11 +116,6 @@
 		<property name="length">
 			<value>0.40000000000000002</value>
 		</property>
-		<relationship name="sounds">
-			<destination>{01a8bb0a-9695-4baa-a8d2-a68948335376}</destination>
-			<destination>{25db310e-fca3-4986-9a85-e52fbb6a4f8a}</destination>
-			<destination>{6c2ba6e3-4ea0-4a65-a7a1-949b88f26e3a}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c741999a-7b7c-4279-8f53-b53f19ee00a5}">
 		<property name="volume">
@@ -143,30 +141,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{25bd3cfa-dc46-4a09-af49-366359dfdaab}" />
 	<object class="MixerBusFader" id="{72d6edd2-20bc-433b-8523-803cbe4d1faf}" />
-	<object class="ProgrammerSound" id="{01a8bb0a-9695-4baa-a8d2-a68948335376}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_move_revvs_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{25db310e-fca3-4986-9a85-e52fbb6a4f8a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_move_revvs_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{6c2ba6e3-4ea0-4a65-a7a1-949b88f26e3a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_move_revvs_v3</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{ed342e2f-e130-431b-8a8f-7ce58e8f1a84}">
 		<relationship name="effects">
 			<destination>{7e8e3abe-57c6-4de6-a98b-59700525d217}</destination>

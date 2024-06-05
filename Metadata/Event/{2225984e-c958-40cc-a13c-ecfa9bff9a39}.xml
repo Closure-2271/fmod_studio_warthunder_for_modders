@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2225984e-c958-40cc-a13c-ecfa9bff9a39}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_prem</value>
 		</property>
@@ -113,10 +116,6 @@
 		<property name="length">
 			<value>0.40000000000000002</value>
 		</property>
-		<relationship name="sounds">
-			<destination>{d18c8fa6-f01e-4b1c-9f63-d0caf02dde44}</destination>
-			<destination>{279ea622-b7e7-440d-bbcc-5b4e13db13e4}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0b82b497-437c-4f75-b320-6610370716d0}">
 		<property name="volume">
@@ -142,22 +141,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c5e5abfc-a829-4da2-b50f-f53b0dc7bf9a}" />
 	<object class="MixerBusFader" id="{79835dcf-f232-496a-8cd0-951c5c1dda8c}" />
-	<object class="ProgrammerSound" id="{d18c8fa6-f01e-4b1c-9f63-d0caf02dde44}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_target_prem_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{279ea622-b7e7-440d-bbcc-5b4e13db13e4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_target_prem_v2</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{6f711520-b367-410d-bad7-e5e5f08b551c}">
 		<relationship name="effects">
 			<destination>{ac2caafc-ce20-4fb1-901f-6025615d1889}</destination>

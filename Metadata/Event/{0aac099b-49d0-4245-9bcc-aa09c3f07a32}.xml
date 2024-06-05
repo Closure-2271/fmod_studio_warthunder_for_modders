@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{fc8baaaf-d731-41d9-9476-126392e260cb}</destination>
-			<destination>{1cb699ed-e138-41db-8631-30f9731d76bb}</destination>
-			<destination>{18c3a909-e878-4694-bcb3-100fb5f6ef15}</destination>
+			<destination>{ccc0e147-1c90-4a9a-bd66-2a30a1ee5713}</destination>
+			<destination>{d110d6f3-705d-4e3d-b6ab-217cc1c85894}</destination>
+			<destination>{c9f102f5-919b-4911-ab39-3ddbdc0032c4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{539f75d9-908e-44be-bf95-a28481e4ccfa}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{b20bdb4c-21a7-4d62-92b1-e4c118c9ea24}" />
 	<object class="MixerBusFader" id="{a4382331-e944-437b-a4cc-85b12df039d6}" />
-	<object class="ProgrammerSound" id="{fc8baaaf-d731-41d9-9476-126392e260cb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ccc0e147-1c90-4a9a-bd66-2a30a1ee5713}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v1</value>
+			<value>d_up_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{1cb699ed-e138-41db-8631-30f9731d76bb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{d110d6f3-705d-4e3d-b6ab-217cc1c85894}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v2</value>
+			<value>d_up_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{18c3a909-e878-4694-bcb3-100fb5f6ef15}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c9f102f5-919b-4911-ab39-3ddbdc0032c4}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v3</value>
+			<value>d_up_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{6b153f63-0624-41fd-ab15-411b8615409b}">

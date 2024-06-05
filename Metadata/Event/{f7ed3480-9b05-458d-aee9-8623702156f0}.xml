@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f7ed3480-9b05-458d-aee9-8623702156f0}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_on_the_move</value>
 		</property>
@@ -120,9 +123,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{f1c1381e-1281-46a3-9550-55429bd726f8}</destination>
-			<destination>{91fe70f0-22ce-4019-9764-b1a3e31c0b41}</destination>
-			<destination>{4089ad65-342f-4f88-b4cd-9f9b58874879}</destination>
+			<destination>{f8d423be-9774-4ed6-9670-1bd9816dd9a2}</destination>
+			<destination>{7fa9b9c5-e667-4dbf-97b0-09fccd21bd08}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{564cfe4f-4eeb-4cfc-a116-647067ca9537}">
@@ -157,28 +159,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{08d23e52-9c46-43db-ba2c-6b5e29fc41be}" />
 	<object class="MixerBusFader" id="{8a8e4535-6c82-4452-84a2-7a5ec3b6261b}" />
-	<object class="ProgrammerSound" id="{f1c1381e-1281-46a3-9550-55429bd726f8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f8d423be-9774-4ed6-9670-1bd9816dd9a2}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_on_the_move_v1</value>
+			<value>onmove_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{91fe70f0-22ce-4019-9764-b1a3e31c0b41}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{7fa9b9c5-e667-4dbf-97b0-09fccd21bd08}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_on_the_move_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{4089ad65-342f-4f88-b4cd-9f9b58874879}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_target_on_the_move_v3</value>
+			<value>onmove_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{784e5b6d-5bc3-41bb-ba8c-43cf6a95e985}">

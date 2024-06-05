@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ed39e878-98a7-4023-8ec5-756ab9fcc808}</destination>
-			<destination>{39002d0c-ddd1-4de9-9152-b1afd4488ce8}</destination>
-			<destination>{7b571e6e-69b5-498d-8012-a95a8ad9f194}</destination>
+			<destination>{7473bd07-1112-4b1f-8350-76a0fdaa6617}</destination>
+			<destination>{ee75d153-de35-43cb-8267-5f32a8104862}</destination>
+			<destination>{b1bcf7fa-3b19-4882-97cd-4e69ea8b55e7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{242916b9-770b-44cd-a034-fef0b2a6efed}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{923269ae-ea82-425b-a5c0-5da8efe0223b}" />
 	<object class="MixerBusFader" id="{aa3b06a0-419f-4f12-8a19-1662bbc0d7b2}" />
-	<object class="ProgrammerSound" id="{ed39e878-98a7-4023-8ec5-756ab9fcc808}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{7473bd07-1112-4b1f-8350-76a0fdaa6617}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_gunner_stunned_v1</value>
+			<value>gunner_stunned_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{39002d0c-ddd1-4de9-9152-b1afd4488ce8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ee75d153-de35-43cb-8267-5f32a8104862}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_gunner_stunned_v2</value>
+			<value>gunner_stunned_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{7b571e6e-69b5-498d-8012-a95a8ad9f194}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b1bcf7fa-3b19-4882-97cd-4e69ea8b55e7}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_gunner_stunned_v3</value>
+			<value>gunner_stunned_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a9b5fb6a-23b6-4f71-9dcb-5ce36e0b4910}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3f61fd80-39bb-4fc0-a8db-375c96923676}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_weve_been_hit</value>
 		</property>
@@ -114,9 +117,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{dca79dee-f795-4086-adba-718eda75dfaa}</destination>
-			<destination>{c910b465-0a03-4e9f-adc2-38ebdd286b03}</destination>
-			<destination>{ad48bfa0-6f9c-47b7-9d60-8a6597842639}</destination>
+			<destination>{803cf563-709c-4ee0-a8fe-412b92c13b4b}</destination>
+			<destination>{975adb92-c5d5-4e0b-9eae-3738d00569cd}</destination>
+			<destination>{4d49bbce-a155-40a6-9901-0a79f397242b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{85dd1ec1-5a31-4ba5-aa70-782108efa1e7}">
@@ -143,28 +146,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{8e0e27ad-5809-4597-b6f2-73c01f2eef0c}" />
 	<object class="MixerBusFader" id="{3f02bfb1-dd94-45fe-92b1-67e6e5e8ba53}" />
-	<object class="ProgrammerSound" id="{dca79dee-f795-4086-adba-718eda75dfaa}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{803cf563-709c-4ee0-a8fe-412b92c13b4b}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_weve_been_hit_v1</value>
+			<value>been_hit_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{c910b465-0a03-4e9f-adc2-38ebdd286b03}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{975adb92-c5d5-4e0b-9eae-3738d00569cd}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_weve_been_hit_v2</value>
+			<value>been_hit_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{ad48bfa0-6f9c-47b7-9d60-8a6597842639}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{4d49bbce-a155-40a6-9901-0a79f397242b}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_weve_been_hit_v3</value>
+			<value>been_hit_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{cc56a80d-377e-41f1-8550-89064c1af5a0}">

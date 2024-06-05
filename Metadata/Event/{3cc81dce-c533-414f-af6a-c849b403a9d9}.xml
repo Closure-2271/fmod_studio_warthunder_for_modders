@@ -114,12 +114,13 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ddd3eb80-0339-4377-bd6d-c0561c3a83eb}</destination>
-			<destination>{1604bd9c-6961-4140-a9c2-110c4a2484c7}</destination>
-			<destination>{24523599-4555-4aad-9f6a-872e8dddb004}</destination>
-			<destination>{9693d2dd-3f33-441d-8581-0f85f1af2d5b}</destination>
-			<destination>{e2b9eeb6-577f-4888-ab55-850cbad49aa7}</destination>
-			<destination>{5ae87483-8558-49a0-b821-53f33b3e2102}</destination>
+			<destination>{dee59bf7-b230-4d3a-945e-322967b678f0}</destination>
+			<destination>{527d77e0-2daf-423e-974b-af2cfb5f9899}</destination>
+			<destination>{83d82f42-21cf-43c3-8c7f-cbaba03ebf8c}</destination>
+			<destination>{fa88c2c1-ae3b-4de4-99bf-dba0d736f631}</destination>
+			<destination>{ea666516-4205-4785-941e-9e00409819e5}</destination>
+			<destination>{57af5fdf-727b-4c0f-ac83-b4bde9054c50}</destination>
+			<destination>{a286f05a-b5b4-4801-b2bb-7f0e53cd1594}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{439f42d2-e54b-4b16-b4c3-3ed29521d2c2}">
@@ -146,52 +147,39 @@
 	</object>
 	<object class="MixerBusPanner" id="{2628cf2e-0eb5-429e-b600-efa854dcfcc6}" />
 	<object class="MixerBusFader" id="{ab91462a-25df-4d1a-bbce-dbc7918da575}" />
-	<object class="ProgrammerSound" id="{ddd3eb80-0339-4377-bd6d-c0561c3a83eb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{dee59bf7-b230-4d3a-945e-322967b678f0}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v1_1</value>
+			<value>battle_start_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{1604bd9c-6961-4140-a9c2-110c4a2484c7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{527d77e0-2daf-423e-974b-af2cfb5f9899}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v1_2</value>
+			<value>battle_start_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{24523599-4555-4aad-9f6a-872e8dddb004}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{83d82f42-21cf-43c3-8c7f-cbaba03ebf8c}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v1_3</value>
+			<value>battle_start_3</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{9693d2dd-3f33-441d-8581-0f85f1af2d5b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{fa88c2c1-ae3b-4de4-99bf-dba0d736f631}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v2_1</value>
+			<value>battle_start_4</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{e2b9eeb6-577f-4888-ab55-850cbad49aa7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ea666516-4205-4785-941e-9e00409819e5}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v2_2</value>
+			<value>battle_start_5</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{5ae87483-8558-49a0-b821-53f33b3e2102}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{57af5fdf-727b-4c0f-ac83-b4bde9054c50}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_battle_start_v2_3</value>
+			<value>battle_start_6</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{a286f05a-b5b4-4801-b2bb-7f0e53cd1594}">
+		<property name="name">
+			<value>battle_start_7</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{304be92d-8c28-47ce-990b-d54e2fedef20}">

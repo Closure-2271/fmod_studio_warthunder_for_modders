@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{54984283-05d6-4642-aecc-66a9bdedf7b4}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_damaged</value>
 		</property>
@@ -114,9 +117,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3c8edb32-db03-4e12-9f66-69f0f3081f8b}</destination>
-			<destination>{cb0ded62-949e-4a56-b54b-1750aa05db96}</destination>
-			<destination>{f52f00a7-7f28-46c4-b9c2-8a4af6fc5f9c}</destination>
+			<destination>{f4e94050-e86c-4e87-bd64-fe943ad2a8c2}</destination>
+			<destination>{e4ebb529-6cb5-430c-b7a3-f3ac74a0d085}</destination>
+			<destination>{2ecaa852-6e40-4301-a40e-0f54f0d7a35f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2daff6d3-96a4-4028-a792-8d5c75520d5b}">
@@ -143,28 +146,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{ad6da6dd-cc48-4010-8f06-7967fff193c7}" />
 	<object class="MixerBusFader" id="{76961d56-c580-4db4-9e45-80fd3ffe6672}" />
-	<object class="ProgrammerSound" id="{3c8edb32-db03-4e12-9f66-69f0f3081f8b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f4e94050-e86c-4e87-bd64-fe943ad2a8c2}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v1</value>
+			<value>damage_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{cb0ded62-949e-4a56-b54b-1750aa05db96}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e4ebb529-6cb5-430c-b7a3-f3ac74a0d085}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v2</value>
+			<value>damage_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{f52f00a7-7f28-46c4-b9c2-8a4af6fc5f9c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2ecaa852-6e40-4301-a40e-0f54f0d7a35f}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_damaged_v3</value>
+			<value>damage_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f057473-a0bd-4d81-9490-e9ddd24c2af1}">

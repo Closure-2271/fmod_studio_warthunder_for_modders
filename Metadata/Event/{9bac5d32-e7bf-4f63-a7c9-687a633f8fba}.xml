@@ -117,7 +117,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1ccf907c-662c-4917-9dc4-325c96469d15}</destination>
+			<destination>{b47d93dc-a032-4d3c-8228-43098ed1abd2}</destination>
+			<destination>{421f7cf2-e2a3-4c56-a994-9f81a0a41e57}</destination>
+			<destination>{51b5de84-72f3-4fe5-9501-cc5ad881637a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{080c456f-e45a-40de-a438-e4b3b350bf4b}">
@@ -144,12 +146,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{8afed57a-94f2-434a-afdc-ae3c12c7d8a8}" />
 	<object class="MixerBusFader" id="{c3d7c319-94e2-4bbd-aae8-63640a1d5982}" />
-	<object class="ProgrammerSound" id="{1ccf907c-662c-4917-9dc4-325c96469d15}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b47d93dc-a032-4d3c-8228-43098ed1abd2}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_turret_right_v3</value>
+			<value>turret_right_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{421f7cf2-e2a3-4c56-a994-9f81a0a41e57}">
+		<property name="name">
+			<value>turret_right_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{51b5de84-72f3-4fe5-9501-cc5ad881637a}">
+		<property name="name">
+			<value>turret_right_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{0bf45a83-9525-4bd6-9baa-68b4ee35eb15}">

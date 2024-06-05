@@ -114,9 +114,11 @@
 			<value>0.60000000000000009</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ceda07f4-e335-4675-9e9b-d8d45af46e20}</destination>
-			<destination>{2221b253-ab30-49d7-a40d-ab4806efe425}</destination>
-			<destination>{65160302-4050-4c3e-a734-f067516f97bf}</destination>
+			<destination>{0f0c8a35-b4fe-4484-9aab-375ebcfb5375}</destination>
+			<destination>{0ec3d305-0f97-4f6f-9838-43a743ed6d73}</destination>
+			<destination>{cd4e21b9-6909-4e1a-8e4a-ee51fa5ca817}</destination>
+			<destination>{1798b7c9-e396-4351-b622-ac92e26f240b}</destination>
+			<destination>{b82883b0-82dd-4c0a-8a17-b82ddb36daa7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f940d388-5d17-44db-8d6b-c490bc51d0f9}">
@@ -143,28 +145,29 @@
 	</object>
 	<object class="MixerBusPanner" id="{55ef5b65-b1b4-4b2d-a91a-7bcd93a16eda}" />
 	<object class="MixerBusFader" id="{4c717479-0442-4467-b82e-9f6307d292c9}" />
-	<object class="ProgrammerSound" id="{ceda07f4-e335-4675-9e9b-d8d45af46e20}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0f0c8a35-b4fe-4484-9aab-375ebcfb5375}">
 		<property name="name">
-			<value>med/gunner/voice_message_gunner_shot_v1</value>
+			<value>shot_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{2221b253-ab30-49d7-a40d-ab4806efe425}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0ec3d305-0f97-4f6f-9838-43a743ed6d73}">
 		<property name="name">
-			<value>med/gunner/voice_message_gunner_shot_v2</value>
+			<value>shot_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{65160302-4050-4c3e-a734-f067516f97bf}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cd4e21b9-6909-4e1a-8e4a-ee51fa5ca817}">
 		<property name="name">
-			<value>med/gunner/voice_message_gunner_shot_v3</value>
+			<value>shot_3</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{1798b7c9-e396-4351-b622-ac92e26f240b}">
+		<property name="name">
+			<value>G_shot_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{b82883b0-82dd-4c0a-8a17-b82ddb36daa7}">
+		<property name="name">
+			<value>G_shot_1</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{26096c5d-5ac8-4561-82bf-d623f9776fa1}">

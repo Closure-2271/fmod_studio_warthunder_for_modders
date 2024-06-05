@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1ced43f6-0cb7-42f0-9be9-fb2b3c4c878f}</destination>
-			<destination>{b1913ebe-b6c8-48ec-a74d-d30deda6e78d}</destination>
-			<destination>{4afd3438-e184-4147-8363-6a15bdd3f951}</destination>
+			<destination>{ff1407c7-43a5-4cfd-9e00-8407db25501a}</destination>
+			<destination>{eef74085-1538-4a44-aefd-70b9f16a6dc2}</destination>
+			<destination>{3315da4b-7be3-4db9-bef6-655684dee3cd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9fafa3e5-daa8-4aae-9510-95b6560b7009}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{a2387469-3080-4ac1-b2ef-6209f1be3426}" />
 	<object class="MixerBusFader" id="{a160dc91-32a4-4a4b-9351-d6406f37a1a1}" />
-	<object class="ProgrammerSound" id="{1ced43f6-0cb7-42f0-9be9-fb2b3c4c878f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ff1407c7-43a5-4cfd-9e00-8407db25501a}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_running_gear_damaged_v1</value>
+			<value>running_gear_damaged_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{b1913ebe-b6c8-48ec-a74d-d30deda6e78d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{eef74085-1538-4a44-aefd-70b9f16a6dc2}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_running_gear_damaged_v2</value>
+			<value>running_gear_damaged_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{4afd3438-e184-4147-8363-6a15bdd3f951}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3315da4b-7be3-4db9-bef6-655684dee3cd}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_running_gear_damaged_v3</value>
+			<value>running_gear_damaged_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ebd01115-a161-4774-967c-f3a0828775ec}">

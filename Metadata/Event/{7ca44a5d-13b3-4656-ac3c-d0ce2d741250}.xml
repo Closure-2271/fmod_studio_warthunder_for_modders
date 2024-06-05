@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7ca44a5d-13b3-4656-ac3c-d0ce2d741250}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_bail</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{801c4923-4e4f-443d-a4e9-7d5df25a9f1c}</destination>
-			<destination>{8198d262-22b0-4ea2-992e-68092b6c14ff}</destination>
-			<destination>{886f39d5-e44b-4048-b99b-81665f466dc7}</destination>
+			<destination>{3d4a98ee-2577-411d-be31-122014d7b89a}</destination>
+			<destination>{b54e13ee-42ac-43b9-a1cf-1a094c4888b9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7fb64d3d-0da2-40ae-842d-3a699d5ff1cf}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{6da3c6b0-f579-4563-9604-704c8d39d855}" />
 	<object class="MixerBusFader" id="{54e5d5f0-9fde-46f2-bd1b-53cbb7a445c7}" />
-	<object class="ProgrammerSound" id="{801c4923-4e4f-443d-a4e9-7d5df25a9f1c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3d4a98ee-2577-411d-be31-122014d7b89a}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_bail_v1_1</value>
+			<value>bail_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{8198d262-22b0-4ea2-992e-68092b6c14ff}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b54e13ee-42ac-43b9-a1cf-1a094c4888b9}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_bail_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{886f39d5-e44b-4048-b99b-81665f466dc7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_bail_v1_3</value>
+			<value>bail_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a7a60b4e-6345-4abc-aca7-655c9544ca01}">

@@ -114,9 +114,10 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{0beae729-dd59-4723-8ad0-d20fa9e919e5}</destination>
-			<destination>{dbfd7c35-700b-4dfd-a546-f3b7e02ba6cb}</destination>
-			<destination>{cfa3592b-f2ec-474f-8884-94fc335ad6b7}</destination>
+			<destination>{f5f46441-ee29-4b88-b3b0-8c9353558af6}</destination>
+			<destination>{bda6cf59-7ae6-485f-a6c8-c5d6b9f4957a}</destination>
+			<destination>{02ba0a49-18a8-44d2-b7f9-4d7f3784b9a8}</destination>
+			<destination>{8cf06e4a-e1fc-4eb3-ba39-7e963d6a4115}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2167bb4a-5ca7-496c-8df5-6ab0cc1180fd}">
@@ -143,28 +144,24 @@
 	</object>
 	<object class="MixerBusPanner" id="{23f9af7c-4098-4633-8463-b1ec6632872b}" />
 	<object class="MixerBusFader" id="{92debfe4-9e33-4657-8cc7-78c73b8ef814}" />
-	<object class="ProgrammerSound" id="{0beae729-dd59-4723-8ad0-d20fa9e919e5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f5f46441-ee29-4b88-b3b0-8c9353558af6}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_ready_v1</value>
+			<value>engine_ready_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{dbfd7c35-700b-4dfd-a546-f3b7e02ba6cb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bda6cf59-7ae6-485f-a6c8-c5d6b9f4957a}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_ready_v2</value>
+			<value>engine_ready_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{cfa3592b-f2ec-474f-8884-94fc335ad6b7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{02ba0a49-18a8-44d2-b7f9-4d7f3784b9a8}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_ready_v3</value>
+			<value>engine_ready_3</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{8cf06e4a-e1fc-4eb3-ba39-7e963d6a4115}">
+		<property name="name">
+			<value>engine_ready_4</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ad9ee416-178b-4fd8-9381-b0ba8d6b02b2}">

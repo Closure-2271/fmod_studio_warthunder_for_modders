@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6ef638cb-b283-4878-aa5b-0f134ac8d8f3}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_correction_retreat</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{44219577-8f09-4923-ba5d-17593c168ce9}</destination>
-			<destination>{1bd9fff1-e61d-408f-9b85-605a6056080f}</destination>
-			<destination>{92b7e438-0cd2-4991-8c97-239f44429ee5}</destination>
+			<destination>{a6d9de97-6f6f-45e6-bd82-22d41aeef484}</destination>
+			<destination>{1ba38392-0922-4682-9847-f9b986ce1d5f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{dffb262b-32af-4bdb-8376-f52cc688257a}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{48cb59d3-0e47-47af-8e4c-a7d2e913cb35}" />
 	<object class="MixerBusFader" id="{80dd15ba-71b9-45e9-a208-15790dfb9e12}" />
-	<object class="ProgrammerSound" id="{44219577-8f09-4923-ba5d-17593c168ce9}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a6d9de97-6f6f-45e6-bd82-22d41aeef484}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_retreat_v1</value>
+			<value>d_down_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{1bd9fff1-e61d-408f-9b85-605a6056080f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1ba38392-0922-4682-9847-f9b986ce1d5f}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_retreat_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{92b7e438-0cd2-4991-8c97-239f44429ee5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_correction_retreat_v3</value>
+			<value>d_down_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{4a2286d2-9d83-4f51-908f-2b218cd28faa}">

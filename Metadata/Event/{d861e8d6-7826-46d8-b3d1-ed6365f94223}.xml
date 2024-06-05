@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d861e8d6-7826-46d8-b3d1-ed6365f94223}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_shot</value>
 		</property>
@@ -111,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{abf09451-3197-4ab9-bfdf-98e884fa5748}</destination>
-			<destination>{b556688d-ba37-4751-9dd3-7df61dd7e211}</destination>
-			<destination>{db175db2-2cf6-4524-89ab-e7e8f54360c8}</destination>
+			<destination>{9f16cd74-4ac9-48ce-9698-f362bc1c9640}</destination>
+			<destination>{02d645a7-a5f6-42a6-b804-a9add5fef50a}</destination>
+			<destination>{945e858a-635d-45b9-97ac-9a976a8a91ca}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d57506d5-7d5e-49d9-aac1-75c511f69af6}">
@@ -145,28 +148,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{cc043185-d836-4fd1-bd33-73211d73d974}" />
 	<object class="MixerBusFader" id="{d3e23c6f-47ea-4661-a230-d7cf11600255}" />
-	<object class="ProgrammerSound" id="{abf09451-3197-4ab9-bfdf-98e884fa5748}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{9f16cd74-4ac9-48ce-9698-f362bc1c9640}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v1</value>
+			<value>shot_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{b556688d-ba37-4751-9dd3-7df61dd7e211}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{02d645a7-a5f6-42a6-b804-a9add5fef50a}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v2</value>
+			<value>shot_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{db175db2-2cf6-4524-89ab-e7e8f54360c8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{945e858a-635d-45b9-97ac-9a976a8a91ca}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_shot_v3</value>
+			<value>shot_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a6376b7f-3e52-40bc-bd99-dbffe35b59e0}">

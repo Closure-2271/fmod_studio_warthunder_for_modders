@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fbd6e02b-26a9-4813-b523-256f8defc5ea}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_armor_breached</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{e2ea21e0-fe02-4658-b0a4-015e38f683d0}</destination>
-			<destination>{3dc1e2a5-87c2-40f3-8146-f3dd4615e64a}</destination>
-			<destination>{82dd8ac1-8ef9-4158-afff-865c682e5242}</destination>
+			<destination>{89ad6aed-2b6e-4544-911e-46b787e632b3}</destination>
+			<destination>{8f4a3bae-9eb5-432c-8d22-51de56e49282}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fe2f5946-f6e2-4896-961c-7b017cc019e9}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{874b7a34-fa60-412c-88f9-cc61ffef973b}" />
 	<object class="MixerBusFader" id="{77c47c6e-918c-495f-8629-fb98f162ffa9}" />
-	<object class="ProgrammerSound" id="{e2ea21e0-fe02-4658-b0a4-015e38f683d0}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{89ad6aed-2b6e-4544-911e-46b787e632b3}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_armor_breached_v1</value>
+			<value>armor_break_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{3dc1e2a5-87c2-40f3-8146-f3dd4615e64a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{8f4a3bae-9eb5-432c-8d22-51de56e49282}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_armor_breached_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{82dd8ac1-8ef9-4158-afff-865c682e5242}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_armor_breached_v3</value>
+			<value>armor_break_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f97946ae-8f92-4924-bc3c-dbd8f009e373}">
